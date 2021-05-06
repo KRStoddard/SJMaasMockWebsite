@@ -1,0 +1,24 @@
+#carouselExampleIndicators {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.carousel-item {
+    width: 75%;
+    color: white;
+    margin-top: 2%;
+    margin-left: 12.6%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bilbo Swash Caps', cursive;
+    margin-top: 1%; 
+}
+
+.align-middle {
+    margin-top: 5%;
+}

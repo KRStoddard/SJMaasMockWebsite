@@ -1,0 +1,52 @@
+<!-- <div class="card-columns d-flex justify-content-center" *ngFor="let book of seriesInfo">
+    <div class="card mb-3 col-sm-4">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src={{book.pic}} class="card-img" alt={{book.title}}>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{book.title}}</h5>
+              <p class="card-text">{{book.summary}}</p>
+              <p class="card-text"><small class="text-muted">{{book.order[0]}} | {{book.order[1]}}</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> -->
+
+
+<div class="container first">
+    <div class="card mb-3">
+    <div class="row no-gutters  first-card">
+          <img src={{seriesInfo[0].pic}} class="card-img" alt={{seriesInfo[0].title}}>
+        <div>
+          <div class="card-body">
+            <h5 class="card-title">{{seriesInfo[0].title}}</h5>
+            <p class="card-text">{{seriesInfo[0].summary}}</p>
+            <p class="card-text">Buy the Box Set!</p>
+            <p class="card-text"><small class="text-muted">{{seriesInfo[0].order[0]}} | {{seriesInfo[0].order[1]}}</small></p>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 allCards" *ngFor="let book of seriesInfo.slice(1)">
+      <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4 col-4">
+              <img src={{book.pic}} class="card-img list-pics" alt={{book.title}}>
+            </div>
+            <div class="col-md-8 col-8">
+              <div class="card-body">
+                <h5 class="card-title">{{book.title}}</h5>
+                <p class="card-text">{{book.summary}}</p>
+                <p class="card-text"><small class="text-muted">{{book.order[0]}} | {{book.order[1]}}</small></p>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+</div>

@@ -1,0 +1,27 @@
+.card {
+    background: rgba(52, 58, 64, .25);
+    color: white;
+    min-height:100%;
+}
+
+.first {
+    margin-top: 1%;
+}
+
+.first-card{
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text {
+    font-size: .9rem;
+}
+
+.allCards {
+    margin-bottom: 3%;
+}
+
+.list-pics {
+    margin-top: 15%;
+}
+
